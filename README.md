@@ -33,4 +33,4 @@
 
 MIT © [Mamunur Rashid](https://mdrashid.com)
 
-![NPM Manager](https://badgen.net/badge/NPM%20Dependency%20Explorer/Mamunur%20Rashid/blue?icon=visualstudio)
+![NPM Manager](https://badgen.net/badge/NPM%20Manager/Mamunur%20Rashid/blue?icon=visualstudio)
