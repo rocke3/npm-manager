@@ -1,6 +1,6 @@
 # NPM Manager
 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/MamunnurRashid.npm-managerr)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/MamunnurRashid.npm-manager)
 ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/MamunnurRashid.npm-manager)
 ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/MamunnurRashid.npm-manager)
 ![License](https://img.shields.io/github/license/rocke3/npm-manager)
