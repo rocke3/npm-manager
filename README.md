@@ -6,6 +6,7 @@
 ![License](https://img.shields.io/github/license/rocke3/npm-manager)
 ![GitHub Issues](https://img.shields.io/github/issues/rocke3/npm-manager)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/rocke3/npm-manager)
+![Version](https://img.shields.io/github/package-json/v/rocke3/npm-manager)
 
 **NPM Manager** is a Visual Studio Code extension that provides an intuitive and user-friendly interface for viewing, updating, and uninstalling the dependencies from your project's package.json file directly from within the editor. Whether you're managing regular or dev dependencies, this extension simplifies dependency management tasks, helping you keep your project up-to-date and clean.
 
