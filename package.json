@@ -1,17 +1,21 @@
 {
-	"name": "npm-manager",
-	"displayName": "NPM Manager",
-	"description": "This VS Code extension offers an intuitive visual interface to view, update, downgrade, and uninstall dependencies from your project's package.json file, directly within VS Code.",
-	"version": "1.0.0",
-	"license": "MIT",
-	"author": "Mamunnur Rashid <mail@mdrashid.com>",
-	"homepage": "https://mdrashid.com",
-	"engines": {
-		"vscode": "^1.95.0"
-	},
-	"categories": [
-		"Other"
-	],
+  "name": "npm-manager",
+  "displayName": "NPM Manager",
+  "description": "This VS Code extension offers an intuitive visual interface to view, update, downgrade, and uninstall dependencies from your project's package.json file, directly within VS Code.",
+  "version": "1.0.1",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Mamunnur Rashid <mail@mdrashid.com>",
+  "homepage": "https://mdrashid.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developer-developer/npm-manager.git"
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Other"
+  ],
 	"keywords": [
 		"npm",
 		"package",
