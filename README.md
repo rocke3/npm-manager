@@ -1,22 +1,25 @@
 # NPM Manager
 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/MamunnurRashid.npm-manager)
-![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/MamunnurRashid.npm-manager)
-![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/MamunnurRashid.npm-manager)
-![License](https://img.shields.io/github/license/rocke3/npm-manager)
-![GitHub Issues](https://img.shields.io/github/issues/rocke3/npm-manager)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/rocke3/npm-manager)
-![Version](https://img.shields.io/github/package-json/v/rocke3/npm-manager)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/MdRashid.npm-manager)
+![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/MdRashid.npm-manager)
+![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/MdRashid.npm-manager)
 
-**NPM Manager** is a Visual Studio Code extension that provides an intuitive and user-friendly interface for viewing, updating, and uninstalling the dependencies from your project's package.json file directly from within the editor. Whether you're managing regular or dev dependencies, this extension simplifies dependency management tasks, helping you keep your project up-to-date and clean.
+**NPM Manager** is a Visual Studio Code extension that provides an intuitive visual interface to view, update, downgrade, and uninstall dependencies from your project's `package.json` file, directly within VS Code.
+
+Supports **npm**, **yarn**, **pnpm**, and **bun**.
 
 ## Features
 
-- **View Installed Packages**: See a list of regular and dev dependencies from your `package.json` file.
-- **Update Dependencies**: Easily check for newer versions and update installed packages directly from the UI.
-- **Uninstall Dependencies**: Remove unwanted packages with a single click.
-- **Streamlined UI**: This is a clean, intuitive interface integrated into the VS Code sidebar, allowing you to manage your project's dependencies without leaving your editor.
-- **Webview Interface**: Open a full-featured webview that displays dependency data and provides interactive buttons for managing them.
+- **View Installed Packages** — See all regular and dev dependencies with their installed and latest versions.
+- **Update Packages** — Update individual packages or all outdated packages at once with a single click.
+- **Downgrade Packages** — Select any previously published version from a dropdown to downgrade.
+- **Uninstall Packages** — Remove unwanted packages with a confirmation step.
+- **Environment Info** — Displays your project name, Node.js version, and package manager version with update indicators.
+- **Search & Filter** — Search packages by name and filter by status (up to date, outdated).
+- **Auto-detect Package Manager** — Automatically detects npm, yarn, pnpm, or bun based on lock files.
+- **Tree View & Webview** — Sidebar tree view for a quick glance, plus a full webview panel with detailed controls.
+- **Auto Refresh** — Watches `package.json` for changes and refreshes automatically.
+- **Theme Aware** — Follows your VS Code theme (light/dark) seamlessly.
 
 ## Installation
 
@@ -27,10 +30,12 @@
 
 ## Preview
 
-![Screenshot](https://mdrashid.com/screenshot.jpg)
+![Preview](media/preview.jpg)
 
 ## License
 
-MIT © [Mamunur Rashid](https://mdrashid.com)
+This extension is free to use. All rights reserved.
 
-![NPM Manager](https://badgen.net/badge/NPM%20Manager/Mamunur%20Rashid/blue?icon=visualstudio)
+See [LICENSE](LICENSE) for details.
+
+Made by [Mamunur Rashid](https://mdrashid.com)
