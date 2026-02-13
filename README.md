@@ -30,7 +30,7 @@ Supports **npm**, **yarn**, **pnpm**, and **bun**.
 
 ## Preview
 
-![Preview](media/preview.jpg)
+![Preview](preview.jpg)
 
 ## License
 
