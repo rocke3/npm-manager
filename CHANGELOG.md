@@ -2,7 +2,7 @@
 
 All notable changes to the **NPM Manager** extension will be documented in this file.
 
-## [1.0.6] - 2026-04-04
+## [1.2.0] - 2026-04-04
 
 ### Redesigned
 - **Simplified Table Layout** — Removed Installed, Latest, and Downgrade columns for a cleaner look. Installed version now shown as a subtitle under the package name.
