@@ -21,6 +21,21 @@ All notable changes to the **NPM Manager** extension will be documented in this 
 - **Clean Version Display** — Long version strings like `5.1.0-rc-fb9a90fa48-20240614` are shortened to `v5.1.0`. All versions now prefixed with `v`.
 - **Bundle Size Display** — Each package shows its gzipped bundle size above the version number, fetched from bundlephobia in the background.
 - **Duplicate Dependency Warning** — Detects packages that appear in both `dependencies` and `devDependencies` and shows an amber "duplicate" badge next to the name.
+### Security & Stability Fixes
+- **URL Validation** — External URLs validated to only allow `http://` and `https://` schemes, preventing `javascript:` and `data:` injection.
+- **Registry URL Sanitization** — Repository and homepage URLs from npm registry validated to be HTTP/HTTPS before rendering.
+- **Error Handling** — All webview message handlers wrapped in try/catch to prevent silent failures.
+- **Search Cache Limit** — NPM search cache limited to 50 entries to prevent unbounded memory growth.
+- **Path Traversal Prevention** — Package name validation added to `getInstalledVersion()`.
+- **Duplicate Action Prevention** — Update, install, and uninstall blocked while a previous operation on the same package is in progress.
+
+### Optimized
+- **Registry Cache** — npm registry responses cached for 5 minutes, eliminating redundant network calls on refresh.
+- **Concurrency Limits** — Registry fetches batched at 15 concurrent requests (previously unbounded). Version prefetch increased from 5 to 15 concurrent, bundle size prefetch from 3 to 8.
+- **node_modules Size Cache** — Size calculation cached by directory mtime, skipping expensive `du` command when nothing changed.
+- **Refresh Cooldown** — Auto-refresh skipped if data is less than 30 seconds old (manual refresh and file watcher changes always force refresh).
+
+### Added
 - **Security Audit** — Runs `npm audit --json` (or equivalent for yarn/pnpm/bun) in the background. Shows a Security column with vulnerability count badges, color-coded by severity. Click to see details with advisory links. New stat card shows total vulnerable packages.
 
 ## [1.0.5] - 2026-03-02
