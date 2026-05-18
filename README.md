@@ -1,4 +1,8 @@
-# 📦 NPM Manager
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rocke3/npm-manager/main/img/logo.png" alt="NPM Manager" width="128" height="128" />
+</p>
+
+<h1 align="center">NPM Manager</h1>
 
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/MdRashid.npm-manager)
 ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/MdRashid.npm-manager)
@@ -12,7 +16,33 @@ Supports **npm**, **yarn**, **pnpm**, and **bun**.
 
 ## 🖼️ Preview
 
-![Preview](preview.png)
+![Preview](https://raw.githubusercontent.com/rocke3/npm-manager/main/img/preview.webp)
+
+---
+
+<h2>
+  <img src="https://raw.githubusercontent.com/rocke3/npm-manager/main/img/TabAutoPilot.png" alt="" width="28" height="28" align="absmiddle" />
+  Try TabAutoPilot — AI Tab Organizer for Chrome
+</h2>
+
+<table>
+<tr>
+<td width="96" valign="top">
+<a href="https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb">
+<img src="https://raw.githubusercontent.com/rocke3/npm-manager/main/img/TabAutoPilot.png" alt="TabAutoPilot" width="80" height="80" />
+</a>
+</td>
+<td valign="top">
+
+**Drowning in browser tabs?** Meet [**TabAutoPilot**](https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb) — a **free**, AI-powered Chrome extension by the same author. It auto-groups your tabs by topic, removes duplicates, hibernates inactive ones to free memory, and saves full sessions as workspaces. 100% on-device — no accounts, no tracking.
+
+🧠 Smart AI grouping · 🔁 Duplicate detection · 💤 Tab hibernation · 📂 Workspaces · 🔒 100% private
+
+[**👉 Install TabAutoPilot for Free**](https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -125,23 +155,6 @@ Or install from the [Visual Studio Marketplace](https://marketplace.visualstudio
 | yarn    | `yarn.lock`              | ✅ Fully supported |
 | pnpm    | `pnpm-lock.yaml`         | ✅ Fully supported |
 | bun     | `bun.lockb` / `bun.lock` | ✅ Fully supported |
-
----
-
-## 💡 Also by the Author
-
-### 🧩 [TabAutoPilot — Smart Tab Manager](https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb)
-
-A **free** AI-powered Chrome extension that automatically organizes, names, and cleans up your browser tabs — all on-device, with zero data collection.
-
-- 🧠 **Smart Grouping** — AI analyzes tab titles to categorize by topic, not just domain
-- 🔁 **Duplicate Detection** — Find and remove duplicate tabs in one click
-- 💤 **Tab Hibernation** — Free memory by discarding inactive tabs
-- 📂 **Workspaces** — Save and restore complete tab sessions
-- 📊 **Memory Dashboard** — Track memory savings over 30 days
-- 🔒 **100% Private** — No accounts, no external APIs, all processing happens locally
-
-[👉 Install TabAutoPilot for Free](https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb)
 
 ---
 
