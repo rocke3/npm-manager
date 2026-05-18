@@ -20,25 +20,20 @@ Supports **npm**, **yarn**, **pnpm**, and **bun**.
 
 ---
 
-<h2>
-  <img src="https://raw.githubusercontent.com/rocke3/npm-manager/main/img/TabAutoPilot.png" alt="" width="28" height="28" align="absmiddle" />
-  Try TabAutoPilot — AI Tab Organizer for Chrome
-</h2>
-
 <table>
 <tr>
-<td width="96" valign="top">
+<td width="110" align="center" valign="middle">
 <a href="https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb">
-<img src="https://raw.githubusercontent.com/rocke3/npm-manager/main/img/TabAutoPilot.png" alt="TabAutoPilot" width="80" height="80" />
+<img src="https://raw.githubusercontent.com/rocke3/npm-manager/main/img/TabAutoPilot.png" alt="TabAutoPilot" width="88" height="88" />
 </a>
 </td>
-<td valign="top">
+<td valign="middle">
 
-**Drowning in browser tabs?** Meet [**TabAutoPilot**](https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb) — a **free**, AI-powered Chrome extension by the same author. It auto-groups your tabs by topic, removes duplicates, hibernates inactive ones to free memory, and saves full sessions as workspaces. 100% on-device — no accounts, no tracking.
+#### 🚀 Try TabAutoPilot &nbsp;·&nbsp; <sub>AI Tab Organizer for Chrome</sub>
 
-🧠 Smart AI grouping · 🔁 Duplicate detection · 💤 Tab hibernation · 📂 Workspaces · 🔒 100% private
+**Drowning in tabs?** A free Chrome extension by the same author — auto-groups tabs by topic, removes duplicates, hibernates inactive ones, and saves sessions as workspaces. 100% on-device, no tracking.
 
-[**👉 Install TabAutoPilot for Free**](https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb)
+<a href="https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb"><img src="https://img.shields.io/badge/Install%20for%20Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Install for Chrome" /></a> &nbsp; <img src="https://img.shields.io/badge/Free-00C853?style=for-the-badge" alt="Free" /> &nbsp; <img src="https://img.shields.io/badge/On--device-FF6B35?style=for-the-badge" alt="On-device" />
 
 </td>
 </tr>
