@@ -2,21 +2,36 @@
   <img src="https://raw.githubusercontent.com/rocke3/npm-manager/main/img/logo.png" alt="NPM Manager" width="128" height="128" />
 </p>
 
-<h1 align="center">NPM Manager</h1>
+<h1 align="center">NPM Manager — Visual Package Manager for VS Code</h1>
 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/MdRashid.npm-manager)
-![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/MdRashid.npm-manager)
-![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/MdRashid.npm-manager)
+<p align="center">
+  <strong>Manage npm, yarn, pnpm &amp; bun dependencies from a visual dashboard — update, downgrade, install, uninstall, and audit packages without the terminal.</strong>
+</p>
 
-**NPM Manager** is a powerful Visual Studio Code extension that gives you a beautiful, intuitive visual interface to manage all your project dependencies — without ever touching the terminal.
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=MdRashid.npm-manager"><img src="https://img.shields.io/visual-studio-marketplace/v/MdRashid.npm-manager?label=Marketplace&color=4285F4" alt="Visual Studio Marketplace version of the NPM Manager extension" /></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=MdRashid.npm-manager"><img src="https://img.shields.io/visual-studio-marketplace/i/MdRashid.npm-manager?label=Installs&color=00C853" alt="Install count for the NPM Manager VS Code extension" /></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=MdRashid.npm-manager&ssr=false#review-details"><img src="https://img.shields.io/visual-studio-marketplace/r/MdRashid.npm-manager?label=Rating&color=FF6B35" alt="User rating for NPM Manager on the VS Code Marketplace" /></a>
+</p>
 
-Supports **npm**, **yarn**, **pnpm**, and **bun**.
+**NPM Manager** is a free [Visual Studio Code](https://code.visualstudio.com/) extension that turns dependency management into a fast, visual experience. Instead of memorizing terminal commands, you get a clean dashboard to **view, update, downgrade, install, uninstall, and audit** the packages in your `package.json`. Spot outdated dependencies at a glance, understand the risk of every update with color-coded semver badges, scan for security vulnerabilities in one click, and check gzipped bundle sizes before you install.
+
+Works with **npm**, **yarn**, **pnpm**, and **bun** — auto-detected from your lock file, no configuration required.
+
+### Why NPM Manager?
+
+- 🚫 **No terminal required** — update, install, and remove packages with a click
+- 🎯 **Safe, semver-aware upgrades** — patch, minor, and major changes are color-coded so you know the risk before you click
+- 🛡️ **Built-in security audit** — surface `npm audit` vulnerabilities right next to each dependency
+- 📦 **Bundle-size awareness** — see the gzipped cost of a package before adding it
+- 🔁 **One tool for every package manager** — npm, yarn, pnpm, and bun in a single UI
+- 🌗 **Native feel** — theme-aware, fast, and built to match your VS Code setup
 
 ---
 
 ## 🖼️ Preview
 
-![Preview](https://raw.githubusercontent.com/rocke3/npm-manager/main/img/preview.webp)
+![NPM Manager dashboard in VS Code showing installed dependencies, color-coded update buttons, security audit results, and bundle sizes](https://raw.githubusercontent.com/rocke3/npm-manager/main/img/preview.webp)
 
 ---
 
@@ -24,7 +39,7 @@ Supports **npm**, **yarn**, **pnpm**, and **bun**.
 <tr>
 <td width="110" align="center" valign="middle">
 <a href="https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb">
-<img src="https://raw.githubusercontent.com/rocke3/npm-manager/main/img/TabAutoPilot.png" alt="TabAutoPilot" width="88" height="88" />
+<img src="https://raw.githubusercontent.com/rocke3/npm-manager/main/img/tap.png" alt="TabAutoPilot" width="88" height="88" />
 </a>
 </td>
 <td valign="middle">
@@ -34,6 +49,25 @@ Supports **npm**, **yarn**, **pnpm**, and **bun**.
 **Drowning in tabs?** A free Chrome extension by the same author — auto-groups tabs by topic, removes duplicates, hibernates inactive ones, and saves sessions as workspaces. 100% on-device, no tracking.
 
 <a href="https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb"><img src="https://img.shields.io/badge/Install%20for%20Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Install for Chrome" /></a> &nbsp; <img src="https://img.shields.io/badge/Free-00C853?style=for-the-badge" alt="Free" /> &nbsp; <img src="https://img.shields.io/badge/On--device-FF6B35?style=for-the-badge" alt="On-device" />
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="110" align="center" valign="middle">
+<a href="https://net.mdrashid.com/">
+<img src="https://raw.githubusercontent.com/rocke3/npm-manager/main/img/lmt.png" alt="LiveMetrics" width="88" height="88" />
+</a>
+</td>
+<td valign="middle">
+
+#### 🚀 Try LiveMetrics &nbsp;·&nbsp; <sub>Network & system monitor for Mac</sub>
+
+**Chrome eating your RAM isn't the only thing worth watching.** A free macOS menu bar app showing live upload and download speed every second — read from your Mac's own interface counters, so the numbers reflect what's actually moving. CPU, GPU, RAM and temperature by default too.
+
+<a href="https://net.mdrashid.com/"><img src="https://img.shields.io/badge/Download%20for%20macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS" /></a> &nbsp; <img src="https://img.shields.io/badge/Free-00C853?style=for-the-badge" alt="Free" /> &nbsp; <img src="https://img.shields.io/badge/Menu%20bar-FF6B35?style=for-the-badge" alt="Menu bar" />
 
 </td>
 </tr>
@@ -133,6 +167,8 @@ Supports **npm**, **yarn**, **pnpm**, and **bun**.
 
 ## 🚀 Installation
 
+Get the NPM Manager extension running in under a minute:
+
 1. Open **VS Code**
 2. Go to the **Extensions** panel (`Ctrl+Shift+X`)
 3. Search for **NPM Manager**
@@ -144,12 +180,48 @@ Or install from the [Visual Studio Marketplace](https://marketplace.visualstudio
 
 ## 📦 Supported Package Managers
 
-| Manager | Lock File                | Status |
-| ------- | ------------------------ | ------ |
+| Manager | Lock File                | Status             |
+| ------- | ------------------------ | ------------------ |
 | npm     | `package-lock.json`      | ✅ Fully supported |
 | yarn    | `yarn.lock`              | ✅ Fully supported |
 | pnpm    | `pnpm-lock.yaml`         | ✅ Fully supported |
 | bun     | `bun.lockb` / `bun.lock` | ✅ Fully supported |
+
+---
+
+## 💡 Common Use Cases
+
+- **Update outdated npm packages** without leaving the editor or running `npm outdated`
+- **Safely upgrade or downgrade a dependency** to a specific version from a dropdown of stable releases
+- **Audit a project for security vulnerabilities** and see affected packages at a glance
+- **Compare bundle sizes** before adding a new dependency to keep your app lean
+- **Migrate between package managers** — the same UI works for npm, yarn, pnpm, and bun
+- **Onboard onto an unfamiliar codebase** by browsing every dependency, its version, and its description in one panel
+
+---
+
+## ❓ Frequently Asked Questions
+
+**Is NPM Manager free?**
+Yes. NPM Manager is completely free to install and use from the Visual Studio Code Marketplace.
+
+**How do I update npm packages in VS Code with NPM Manager?**
+Open the NPM Manager panel, and any dependency with a newer release shows a color-coded update button (green for patch, amber for minor, coral for major). Click it to update a single package, or use **Update All** to upgrade every outdated package at once.
+
+**Does it work with yarn, pnpm, and bun?**
+Yes. NPM Manager auto-detects your package manager from the lock file (`package-lock.json`, `yarn.lock`, `pnpm-lock.yaml`, or `bun.lockb` / `bun.lock`) and runs the correct commands for you.
+
+**Can I downgrade a package to an older version?**
+Yes. Open the version dropdown for any package to browse its stable releases and switch to any version — upgrade or downgrade.
+
+**How does the security audit work?**
+NPM Manager runs `npm audit` (or the yarn/pnpm/bun equivalent) in the background and shows a shield badge on each package, color-coded by severity, with a hover popover linking to the advisory.
+
+**Will it slow down VS Code?**
+No. Registry responses are cached, network requests are batched, and the panel loads instantly from cached data while fresh results are fetched in the background.
+
+**Does it send my data anywhere?**
+No. NPM Manager only talks to the public npm registry and Bundlephobia to fetch version, description, and bundle-size information. Your code stays on your machine.
 
 ---
 
