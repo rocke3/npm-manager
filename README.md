@@ -48,7 +48,7 @@ Works with **npm**, **yarn**, **pnpm**, and **bun** — auto-detected from your 
 
 **Drowning in tabs?** A free Chrome extension by the same author — auto-groups tabs by topic, removes duplicates, hibernates inactive ones, and saves sessions as workspaces. 100% on-device, no tracking.
 
-<a href="https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb"><img src="https://img.shields.io/badge/Install%20for%20Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Install for Chrome" /></a> &nbsp; <img src="https://img.shields.io/badge/Free-00C853?style=for-the-badge" alt="Free" /> &nbsp; <img src="https://img.shields.io/badge/On--device-FF6B35?style=for-the-badge" alt="On-device" />
+<a href="https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb"><img src="https://img.shields.io/badge/Install%20for%20Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Install for Chrome" /></a> &nbsp; <a href="https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb"><img src="https://img.shields.io/badge/Free-00C853?style=for-the-badge" alt="Free" /></a> &nbsp; <a href="https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom?utm_source=item-share-cb"><img src="https://img.shields.io/badge/On--device-FF6B35?style=for-the-badge" alt="On-device" /></a>
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ Works with **npm**, **yarn**, **pnpm**, and **bun** — auto-detected from your 
 
 **Chrome eating your RAM isn't the only thing worth watching.** A free macOS menu bar app showing live upload and download speed every second — read from your Mac's own interface counters, so the numbers reflect what's actually moving. CPU, GPU, RAM and temperature by default too.
 
-<a href="https://net.mdrashid.com/"><img src="https://img.shields.io/badge/Download%20for%20macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS" /></a> &nbsp; <img src="https://img.shields.io/badge/Free-00C853?style=for-the-badge" alt="Free" /> &nbsp; <img src="https://img.shields.io/badge/Menu%20bar-FF6B35?style=for-the-badge" alt="Menu bar" />
+<a href="https://net.mdrashid.com/"><img src="https://img.shields.io/badge/Download%20for%20macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS" /></a> &nbsp; <a href="https://net.mdrashid.com/"><img src="https://img.shields.io/badge/Free-00C853?style=for-the-badge" alt="Free" /></a> &nbsp; <a href="https://net.mdrashid.com/"><img src="https://img.shields.io/badge/Menu%20bar-FF6B35?style=for-the-badge" alt="Menu bar" /></a>
 
 </td>
 </tr>
